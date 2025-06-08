@@ -3,6 +3,7 @@
 Access with browser http://localhost:8080
 
 **docker-compose.yml:**  
+```
 services:  
   watchtower:  
     image: containrrr/watchtower  
@@ -16,4 +17,4 @@ services:
    image: wearecooked/nodeapp  
    ports:  
     - 8080:8080  
-
+```
